@@ -2,7 +2,7 @@
 from bc import Blockchain
 from flask import Flask, jsonify, request
 from uuid import uuid4
-import json
+
 
 # Instantiate our Node.
 app = Flask(__name__)
